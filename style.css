@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.gameimages {
+    height: 50vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.rock {
+    height: 30vmin;
+    width: 30vmin;
+    border-radius: 50%;
+    background-image: url("rock.png");
+    background-size: contain;
+}
+.paper {
+    height: 30vmin;
+    width: 30vmin;
+    border-radius: 50%;
+    background-image: url("paper.png");
+    background-size: contain;
+}
+.scissor {
+    height: 30vmin;
+    width: 30vmin;
+    border-radius: 50%;
+    background-image: url("scissors.png");
+    background-size: contain;
+}
+
+.img:hover {
+    border: 10px solid black;
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* padding-right: 100px; */
+}
+.userScore {
+    font-size: 2rem;
+    
+}
+
+.compScore {
+    font-size: 2rem;
+}
+
+#startBtn {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 1rem;
+    /* border: none; */
+}
